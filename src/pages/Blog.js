@@ -39,6 +39,8 @@ function BlogCarousel() {
 
   return (
     <div className="container mx-auto py-8">
+      <h2 className="text-2xl font-bold mb-4">A la une</h2>
+
       <Slider {...settings}>
         {blogs.map((blog, index) => (
           <div key={index} className="grid grid-cols-3 gap-4">
