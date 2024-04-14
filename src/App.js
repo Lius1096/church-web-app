@@ -1,21 +1,28 @@
 // App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-// Importez les autres pages nécessaires
+import Messages from './pages/Messages';
+import Blog from './pages/Blog';
+import Ministries from './pages/Ministries';
+import Resources from './pages/Resources';
 
 function App() {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/contact" component={Contact} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/messages" element={<Messages />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/ministries" element={<Ministries />} />
+        <Route path="/resources" element={<Resources />} />
         {/* Ajoutez les autres routes ici */}
-      </Switch>
+      </Routes>
       <Footer />
     </Router>
   );
