@@ -19,7 +19,7 @@ function Header() {
           <li><Link to="/ministries" className="text-white text-lg mx-4">Ministries</Link></li>
           <li><Link to="/resources" className="text-white text-lg mx-4">Resources</Link></li>
           <li><Link to="/messages" className="text-white text-lg mx-4">Messages</Link></li>
-          <li><Link to="/calendar" className="text-white text-lg mx-4">Calendar</Link></li>
+          <li><Link to="/event" className="text-white text-lg mx-4">Events</Link></li>
           <li><Link to="/contact" className="text-white text-lg mx-4">Contact</Link></li>
           <li><Link to="/about" className="text-white text-lg mx-4">A propos</Link></li>
           {/* Ajoutez d'autres liens de navigation ici */}
@@ -37,8 +37,6 @@ function Header() {
           </div>
         </div>
       </section>
-  
-
     </header>
   );
 }

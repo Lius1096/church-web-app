@@ -9,6 +9,7 @@ import Messages from './pages/Messages';
 import Blog from './pages/Blog';
 import Ministries from './pages/Ministries';
 import Resources from './pages/Resources';
+import Events from './pages/Events';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/event" element={<Events />} />
         <Route path="/messages" element={<Messages />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/ministries" element={<Ministries />} />
