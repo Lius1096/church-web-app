@@ -10,6 +10,8 @@ import Blog from './pages/Blog';
 import Ministries from './pages/Ministries';
 import Resources from './pages/Resources';
 import Events from './pages/Events';
+import LoginPage from './pages/LoginPage';
+import RegistrationPage from './pages/RegistrationPage';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/ministries" element={<Ministries />} />
         <Route path="/resources" element={<Resources />} />
+        <Route path="/loginpage" element={<LoginPage />} />
+        <Route path="/registrationpage" element={<RegistrationPage />} />
         {/* Ajoutez les autres routes ici */}
       </Routes>
       <Footer />
