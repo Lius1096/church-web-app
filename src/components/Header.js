@@ -9,8 +9,8 @@ function Header() {
     <header>
       <nav className="flex items-center justify-between py-4 px-8 bg-gray-800">
         <div className="flex items-center flex-shrink-0 mr-6">
-          <img src={Essaie1} alt="Logo" className="h-12 w-auto" /> {/* Afficher le logo */}
-          <Link to="/" className="ml-2 text-white font-semibold text-xl">Votre Église</Link>
+          <img src={Essaie1} alt="Logo" className="h-48 w-auto" /> {/* Afficher le logo */}
+          <Link to="/" className="ml-2 text-white font-semibold text-xl"></Link>
         </div>
         <ul className="flex items-center">
           <li><Link to="/blog" className="text-white text-lg mx-4">Blog</Link></li>
@@ -18,7 +18,7 @@ function Header() {
           <li><Link to="/resources" className="text-white text-lg mx-4">Resources</Link></li>
           <li><Link to="/messages" className="text-white text-lg mx-4">Messages</Link></li>
           <li><Link to="/event" className="text-white text-lg mx-4">Events</Link></li>
-          <li><Link to="/contact" className="text-white text-lg mx-4">Contact</Link></li>
+          <li><Link to="/contact" className="text-white text-lg mx-4"><li><Link to="/contact">Contact</Link></li></Link></li>
           <li><Link to="/about" className="text-white text-lg mx-4">A propos</Link></li>
           {/* Ajoutez d'autres liens de navigation ici */}
         </ul>
@@ -27,7 +27,7 @@ function Header() {
      {/* Conteneur pour le bouton "Faire un don" et la barre de recherche */}
      <div className="flex justify-end items-center bg-gray-200 pt-40 px-4">
         {/* Bouton "Faire un don" */}
-        <button className="bg-blue-500 text-white px-4 py-2 rounded-md mr-4 flex ">Faire un don</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded-md mr-4 flex "><Link to="/payment">Faire un don</Link></button>
         
         {/* Barre de recherche */}
         <div className="flex items-center">
@@ -43,7 +43,7 @@ function Header() {
           <p className="text-lg text-center mb-4">95 rue de l'Ouest, Paris 14ème</p>
           <div className="flex justify-center">
             <Link to="/qui-sommes-nous" className="bg-blue-500 text-white px-4 py-2 rounded-lg mr-2">Qui Sommes Nous</Link>
-            <a href="https://www.facebook.com/votreeglise" className="bg-blue-500 text-white px-4 py-2 rounded-lg mr-2" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://www.facebook.com/EPMFPernety/" className="bg-blue-500 text-white px-4 py-2 rounded-lg mr-2" target="_blank" rel="noopener noreferrer">Facebook</a>
             <Link to="/contact" className="bg-blue-500 text-white px-4 py-2 rounded-lg">Contact</Link>
           </div>
         </div>
