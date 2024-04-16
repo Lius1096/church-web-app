@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Logo from '../assets/Essaie1.svg'; // Importez le logo depuis son emplacement
@@ -12,8 +13,13 @@ function Footer() {
           <p>© 2024 Église Protestante. Tous droits réservés.</p>
         </div>
         <div>
-          <p><a href="#" className="text-white mr-4">Mentions légales</a> <span className="text-gray-400">-</span> <a href="#" className="text-white mx-4">CGU</a> <span className="text-gray-400">-</span> <a href="#" className="text-white ml-4">Politique de confidentialité</a></p>
-        </div>
+        <p>
+      <Link to="/mentions-legales" className="text-white mr-4">Mentions légales</Link>
+      <span className="text-gray-400">-</span>
+      <a href="#" className="text-white mx-4">CGU</a>
+      <span className="text-gray-400">-</span>
+      <a href="#" className="text-white ml-4">Politique de confidentialité</a>
+    </p>        </div>
         <div className="flex">
           <a href="https://www.facebook.com/votreeglise" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
             <FontAwesomeIcon icon={faFacebook} size="2x" />
