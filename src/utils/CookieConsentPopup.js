@@ -98,7 +98,7 @@ function CookieConsentPopup({ onConsent, onRefuse }) {
 
       {/* Popup des détails des cookies */}
       {showDetails && (
-        <div className="fixed bottom-4 right-4 z-50 bg-gray-800 text-white p-20 rounded-lg">
+        <div className="fixed bottom-4 right-4 z-50 bg-gray-800 text-white p-20  rounded-lg">
           <button onClick={toggleDetails} className="absolute top-4 right-4 text-white">
             <FontAwesomeIcon icon={faTimes} />
           </button>
