@@ -1,5 +1,6 @@
 // CookieManager.js
-
+import React, { useState } from 'react';
+import CookieConsentPopup from './CookieConsentPopup';
 const CookieManager = {
     // Fonction pour définir un cookie
     setCookie: (name, value, days) => {
