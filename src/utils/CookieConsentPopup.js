@@ -90,7 +90,7 @@ function CookieConsentPopup({ onConsent, onRefuse }) {
             {/* Signature */}
             <div className="mt-4 text-center">
               <FontAwesomeIcon icon={faMars} className="text-2xl mr-2" />
-              <span>KeTaVerse</span>
+              <span>KeTaVerse </span>
             </div>
           </div>
         </div>
