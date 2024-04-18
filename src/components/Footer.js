@@ -21,13 +21,13 @@ function Footer() {
       <a href="#" className="text-white ml-4">Politique de confidentialité</a>
     </p>        </div>
         <div className="flex">
-          <a href="https://www.facebook.com/votreeglise" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
             <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
-          <a href="https://twitter.com/votreeglise" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
             <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
-          <a href="https://www.instagram.com/votreeglise" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
           {/* Ajoutez d'autres icônes de réseaux sociaux ici */}

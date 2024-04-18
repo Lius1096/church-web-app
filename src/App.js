@@ -13,13 +13,14 @@ import Blog from './pages/Blog';
 import Ministries from './pages/Ministries';
 import Resources from './pages/Resources';
 import Events from './pages/Events';
-import LoginPage from './pages/LoginPage';
-import RegistrationPage from './pages/RegistrationPage';
+import LoginPage from './pages/Login';
+import RegistrationPage from './pages/Registration';
 import CookieConsentPopup from './utils/CookieConsentPopup';
-import PaymentPage from './pages/PaymentPage';
+import PaymentPage from './pages/Payment';
 import QuiSommesNous from './components/QuiSommesNous';
 import ContactForm from './components/ContactForm';
 import MentionsLegales from './pages/MentionsLegales';
+import NewsletterSignup from './components/NewsletterSignup';
 
 function App() {
   const [consentGiven, setConsentGiven] = useState(false);
@@ -60,6 +61,7 @@ function App() {
         <Route path="/qui-sommes-nous" element={<QuiSommesNous />} />
         <Route path="/contact" element={<ContactForm />} />
         <Route path="/mentions-legales"element={<MentionsLegales />} />
+        <Route path="/newslettersignup"element={<NewsletterSignup />} />
         {/* Ajoutez les autres routes ici */}
       </Routes>
       <Footer />
