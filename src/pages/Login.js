@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 import CookieManager from '../utils/CookieManager'; // Importez votre utilitaire CookieManager
 
-function LoginPage() {
+function Login () {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [recaptchaValue, setRecaptchaValue] = useState('');
@@ -60,4 +60,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default Login ;

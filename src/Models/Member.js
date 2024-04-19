@@ -1,4 +1,4 @@
-class ChurchMember {
+class Member {
     constructor(firstName, lastName, dateOfBirth, gender, address, phoneNumber, email, joinDate, maritalStatus, baptized, photoUrl) {
       this.firstName = firstName;
       this.lastName = lastName;
@@ -14,5 +14,5 @@ class ChurchMember {
     }
   }
   
-  module.exports = ChurchMember;
+  module.exports = Member;
   
